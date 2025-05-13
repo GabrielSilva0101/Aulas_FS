@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhação</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+    <div class="caixa">
+
+        <h1>Adivinhação</h1>
+
+        <div class="pt1">
+            <p>Tente adivinhar um numero de 1 a 99 </p> 
+            
+        </div>
+
+        <div class="pt2">
+            <input type="number" id="num" placeholder="digite um numero de 1 à 99" min="0" max="99">
+            <button id="gerar" onclick="veri()">adivinhar o número</button> 
+                  
+        </div>
+        <div id="res"></div> 
+        <p id="gerar"></p>
+    </div>
+<script src="guess.js"></script>
+</body>
+</html>

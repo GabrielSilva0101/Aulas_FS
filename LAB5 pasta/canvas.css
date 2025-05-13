@@ -1,0 +1,44 @@
+body{
+    padding: 20px;
+    margin: 20px;
+}
+
+.ca{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#canvas{
+    background-color: white;
+    border: black solid 1px;
+}
+
+#canvas2{
+    border: black solid 1px;
+    background-color: #8FFDD4;
+}
+
+
+.bu{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #6767d7;
+    color: white;
+    font-size: 20pt;
+    border-radius: 12px;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue;
+}
